@@ -1,0 +1,64 @@
+#to-do-list{
+    padding: 120px;
+    .to-do-add{
+        background-color: #2A9D8F;
+        height: 70px;
+        position: relative;
+        input{
+            height: 100%;
+            width: 80%;
+        }
+        .add{
+            width: 18%;
+            height: 100%;
+           
+        }
+        label{
+            position: absolute;
+            left: 0;
+            top: -65%;
+            height: 35px;
+            background-color: wheat;
+            color: #9b3b3b;
+            padding: 6px 10px;
+            transition: all 0.8s;
+            border-radius: 4%;
+            font-size: 13px;
+        }
+    }
+    .list{
+        background-color: #264653;
+        height: 500px;
+        padding: 15px;
+        position: relative;
+        li{
+            height: 60px;
+            background-color:  #264653;
+            display: flex;
+            padding-left: 15px;
+            width: 100%;
+            align-items: center;
+            position: relative;
+            justify-content: space-between;
+            span{
+                width: 76%;
+                background-color: #E9C46A;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+            }
+            
+        }
+        .remove{
+            height: 60px;
+            background-color: red;
+            width: 20%;
+            border: none;
+        }
+    }
+
+    .deleted{
+        display: none;
+    }
+}
